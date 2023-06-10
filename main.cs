@@ -4,7 +4,8 @@ class Program
 {
     public static void Main(string[] args)
     {
-        Contact lareContact = new Contact();
-        lareContact.ContactDetails();
+        Parcels firstParcel = new Parcels();
+        firstParcel.ParcelLogic();
+
     }
 }
