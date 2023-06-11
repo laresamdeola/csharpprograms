@@ -1,0 +1,3 @@
+1. https://dotnet.microsoft.com/en-us/learn - for c# and .NET
+2. https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/view/ - aws cloud practitioner practise questions.
+3. https://wellsb.com/csharp/tutorials/beginners/ - blog on c#
