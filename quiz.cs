@@ -9,11 +9,12 @@ class Quiz {
   
   string[] questions = {
     "1. What is the capital of Nigeria? ",
-    "2. How many states are in Nigeria?"
+    "2. How many states are in Nigeria?",
+    "3. What are the colors of the Nigerian Flag?"
   };
 
   string[] answers = {
-    "abuja", "36"
+    "abuja", "36", "green white green"
   };
 
   public void gamePlay() {
