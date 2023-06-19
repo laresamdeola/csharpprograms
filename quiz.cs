@@ -10,11 +10,12 @@ class Quiz {
   string[] questions = {
     "1. What is the capital of Nigeria? ",
     "2. How many states are in Nigeria?",
-    "3. What are the colors of the Nigerian Flag?"
+    "3. What are the colors of the Nigerian Flag?",
+    "4. How many geo-political zones does Nigeria have?"
   };
 
   string[] answers = {
-    "abuja", "36", "green white green"
+    "abuja", "36", "green white green", "6"
   };
 
   public void gamePlay() {
