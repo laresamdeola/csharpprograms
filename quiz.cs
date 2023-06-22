@@ -12,11 +12,12 @@ class Quiz {
     "2. How many states are in Nigeria?",
     "3. What are the colors of the Nigerian Flag?",
     "4. How many geo-political zones does Nigeria have?",
-    "5. Is Igbo a major tribe in Nigeria?"
+    "5. Is Igbo a major tribe in Nigeria?",
+    "6. What year did Nigeria gain independence?"
   };
 
   string[] answers = {
-    "abuja", "36", "green white green", "6", "yes"
+    "abuja", "36", "green white green", "6", "yes", "1960"
   };
 
   public void gamePlay() {
