@@ -15,11 +15,12 @@ class Quiz
     "4. How many geo-political zones does Nigeria have?",
     "5. Is Igbo a major tribe in Nigeria?",
     "6. What year did Nigeria gain independence?",
-    "7. What is the name of the Nigeria's first President?"
+    "7. What is the name of the Nigeria's first President?",
+      "8. What is the capital of Lagos State?"
   };
 
     string[] answers = {
-    "abuja", "36", "green white green", "6", "yes", "1960", "Nnamdi Azikiwe"
+    "abuja", "36", "green white green", "6", "yes", "1960", "Nnamdi Azikiwe", "ikeja"
   };
 
     public void gamePlay()
