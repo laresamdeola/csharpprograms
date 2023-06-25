@@ -7,6 +7,7 @@ class Quiz
     public bool gameState = true;
     public int count;
     public string answer;
+    public int celebrate = 1;
 
     string[] questions = {
     "1. What is the capital of Nigeria? ",
@@ -31,9 +32,17 @@ class Quiz
             answer = Console.ReadLine();
             foreach (string ans in answers)
             {
-                if (ans.ToLower() == answer)
+                if (ans.ToLower() == answer.ToLower())
                 {
                     score += 1;
+                }
+            }
+            if (score > (answers.Length / 2))
+            {
+                while (celebrate == 1)
+                {
+                    Console.WriteLine("Amazing!");
+                    celebrate -= 1;
                 }
             }
         }
