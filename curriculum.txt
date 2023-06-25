@@ -1,9 +1,9 @@
 Command Line Applications
 
-1. Contact Card
+1. Contact Card - done
 2. Where's That?
-3. Quiz
-4. Guess the Number
+3. Quiz - done
+4. Guess the Number - ?
 5. 
 6.
 7.
