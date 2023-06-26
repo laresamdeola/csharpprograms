@@ -17,11 +17,12 @@ class Quiz
     "5. Is Igbo a major tribe in Nigeria?",
     "6. What year did Nigeria gain independence?",
     "7. What is the name of the Nigeria's first President?",
-      "8. What is the capital of Lagos State?"
+      "8. What is the capital of Lagos State?",
+      "9. Is River Niger in Nigeria?"
   };
 
     string[] answers = {
-    "abuja", "36", "green white green", "6", "yes", "1960", "Nnamdi Azikiwe", "ikeja"
+    "abuja", "36", "green white green", "6", "yes", "1960", "Nnamdi Azikiwe", "ikeja", "yes"
   };
 
     public void gamePlay()
