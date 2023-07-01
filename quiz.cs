@@ -18,11 +18,12 @@ class Quiz
     "6. What year did Nigeria gain independence?",
     "7. What is the name of the Nigeria's first President?",
       "8. What is the capital of Lagos State?",
-      "9. Is River Niger in Nigeria?"
+      "9. Is River Niger in Nigeria?",
+      "10. Which geo-political zone is Lagos State in?"
   };
 
     string[] answers = {
-    "abuja", "36", "green white green", "6", "yes", "1960", "Nnamdi Azikiwe", "ikeja", "yes"
+    "abuja", "36", "green white green", "6", "yes", "1960", "Nnamdi Azikiwe", "ikeja", "yes", "south-west"
   };
 
     public void gamePlay()
