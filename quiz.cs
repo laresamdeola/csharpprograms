@@ -19,11 +19,12 @@ class Quiz
     "7. What is the name of the Nigeria's first President?",
       "8. What is the capital of Lagos State?",
       "9. Is River Niger in Nigeria?",
-      "10. Which geo-political zone is Lagos State in?"
+      "10. Which geo-political zone is Lagos State in?",
+      "11. What is the capital of Oyo State?"
   };
 
     string[] answers = {
-    "abuja", "36", "green white green", "6", "yes", "1960", "Nnamdi Azikiwe", "ikeja", "yes", "south-west"
+    "abuja", "36", "green white green", "6", "yes", "1960", "Nnamdi Azikiwe", "ikeja", "yes", "south-west", "ibadan"
   };
 
     public void gamePlay()
