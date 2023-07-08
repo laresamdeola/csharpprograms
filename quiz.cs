@@ -49,6 +49,6 @@ class Quiz
                 }
             }
         }
-        Console.WriteLine($"Congratulations, you scored {score}");
+        Console.WriteLine($"Congrats, you scored {score}");
     }
 }
