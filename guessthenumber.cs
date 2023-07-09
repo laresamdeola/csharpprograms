@@ -25,13 +25,17 @@ class GuessTheNumber
             Console.WriteLine("You won");
             gameState = false;
         }
-        else if (randomizedNumber > guessNumber)
-        {
-            Console.WriteLine("Guess Higher");
-        }
         else
         {
-            Console.WriteLine("Guess Lower");
+            if (randomizedNumber > guessNumber)
+            {
+                Console.WriteLine("Guess Higher");
+            }
+
+            if (randomizedNumber < guessNumber)
+            {
+                Console.WriteLine("Guess Lower");
+            }
         }
     }
 }
