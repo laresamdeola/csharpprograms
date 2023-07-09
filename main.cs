@@ -9,6 +9,7 @@ class Program
         countryQuiz.gamePlay();
         */
         GuessTheNumber trial = new GuessTheNumber();
+        //trial.userRandomNumbers();
         while (trial.gameState)
         {
             trial.guessGame();
